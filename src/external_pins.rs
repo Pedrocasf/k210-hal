@@ -54,7 +54,7 @@ mod closed_trait {
         const INDEX: usize;
     }
 }
-pub(crate) use closed_trait::ExternalPin;
+pub use closed_trait::ExternalPin;
 
 impl ExternalPin for ExternalPin0 { const INDEX: usize = 0; }
 impl ExternalPin for ExternalPin1 { const INDEX: usize = 1; }
