@@ -8,7 +8,7 @@
 pub use k210_pac as pac;
 
 pub mod clock;
-mod external_pins;
+pub mod external_pins;
 mod fpioa;
 mod peripherals;
 pub mod prelude;
